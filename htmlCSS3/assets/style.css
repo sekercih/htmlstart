@@ -1,0 +1,13 @@
+
+*{
+    text-align: center;
+}
+
+
+.input{
+    margin-bottom: 20px;
+    background-color: rgb(224, 216, 216);
+    width: 200px;
+    height: 25px;
+
+}

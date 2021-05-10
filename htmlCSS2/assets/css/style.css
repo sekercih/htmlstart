@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    background-color: rebeccapurple
+
+}
+ p{color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+ }
+ /*4px çizgi kalınlığı
+/* çizgi kalınlık şekil çizgiler solid ,double dashed olabilir
+//çizgi rengi*/
+
+ .tablo{
+border: 4px solid  gray;
+border-collapse: collapse;
+width: 50%; /*yüzdelik dilim sayfaya göre ayarlama yapar*/
+margin-left: auto; /*sol ve sağ duvar tarafından boşluk koyarak auto yapmak ortanmış
+olurlar*/
+margin-right: auto;
+
+ }
+/*birden fazla attribute aynı stillendirme yaplıcaksa virgül ile
+ayrılarak yazılabilir.*/
+ td,th{
+     border: 4px solid green;
+     
+
+ }
+
+ th{
+     background-color: red;
+
+ }
+
+
+tr:hover{
+    background-color: rgb(178, 211, 181);
+}
+
+tr:nth-child(even){
+    background-color: rgb(240, 238, 230);
+
+}
