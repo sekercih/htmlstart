@@ -1,13 +1,67 @@
 
+
+
+/*Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,400&display=swap');
+
+
+
 *{
     text-align: center;
+    margin: 0; /*baştan tüm marjinleri sıfırla*/
+    box-sizing: border-box;
+    /*boxsizing CCS de kullanılan kutu modeli seçmek 
+    için kullanılır. Genelde border-box modeli tercih edilir*/
 }
 
 
-.input{
+.giris{
     margin-bottom: 20px;
+   
     background-color: rgb(224, 216, 216);
     width: 200px;
     height: 25px;
 
+}
+
+.label{
+margin-right: 10px;
+display:block;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-style: oblique;    
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+
+    border: 5px solid green;
+    border-radius: 30px;
+    background-color: rgb(22, 230, 15);
+
+
+}
+.btn:hover{
+    background-color: rgb(116, 126, 121);
+}
+body{
+    background-image: 
+    linear-gradient(rgb(214, 22, 22),rgb(245, 211, 20),blue);
+}
+.far, .fas{
+    color: rgb(243, 57, 0);
+    font-size: 20px;
+}
+
+textarea{
+    width: 200px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: justify;
+    border-radius: 20px;
 }

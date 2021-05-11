@@ -4,36 +4,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formlar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     <h1>FORMLAR</h1>
     <form action="kaydet.php">
-      <label for="ad">Adınız:</label>
+      <label class="label" for="ad">Adınız:</label>
       <input
-        class="input"
+        class="giris"
         id="ad"
         type="text"
         placeholder="lütfen isim giriniz"
       /><br /><br />
-      <label for="sifre">Şifreniz:</label>
-      <input class="input" id="sifre" type="password" required="" />
+      <label class="label" for="sifre">Şifreniz:</label>
+      <input class="giris" id="sifre" type="password" required="" />
       <br /><br />
 
-      <label for="sayi">Yaşiniz:</label>
-      <input class="input" id="sayi" type="number" max="100" min="0" />
+      <label class="label" for="sayi">Yaşınız:</label>
+      <input class="giris" id="sayi" type="number" max="100" min="0" />
       <br /><br />
-      <label for="email">Email:</label>
+      <label class="label" for="email">Email:</label>
       <input
-        class="input"
+        class="giris"
         id="email"
         name="email"
         value=""
         type="email"
       /><br />
+      <label class="label" for="adres">Adres:</label>
+      <textarea name="text-alanı" id="adres" rows="10"></textarea><br />
+      <button class="btn" type="submit">
+        <i class="far fa-save"></i>Gönder
+      </button>
+      <button class="btn" type="reset">
+        <i class="fas fa-trash-alt"></i>Temizle
 
-      <input type="submit" value="Gönder" />
-      <input type="button" value="Temizle" /> <br />
-    </form>
+
+
+
+
+
+      </button>
+                                                                                    </form>
   </body>
 </html>
