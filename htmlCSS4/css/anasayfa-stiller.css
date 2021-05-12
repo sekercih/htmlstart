@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+}
+body {
+  /*1 üst 2. sağ 3. alt 4. sol */
+  margin: 10px 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.header {
+  color: wheat;
+
+  background-color: red;
+  font-size: 25px;
+  height: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+.nav {
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+}
+.aside {
+  background-color: yellow;
+  margin-top: 10px;
+  width: 25%;
+  height: 450px;
+  float: left;
+}
+.main {
+  float: left;
+  background-color: tomato;
+  width: 75%;
+  height: 450px;
+  margin-top: 10px;
+}
+.FOOTER {
+  margin-top: 10px;
+  background-color: grey;
+  height: 90%;
+}
