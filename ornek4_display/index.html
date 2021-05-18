@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Display</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-3 text-center text-info bg-secondary">DISPLAY</h1>
+      <!-- ** Aynı CSS'de olduğu gibi Bootstrap ile de nesnelerin display özellikleri değiştirilebilir. Display classları hakkında ayrıntılı bilgi için 
+      ! https://getbootstrap.com/docs/5.0/utilities/display/ -->
+      <div class="container text-center">
+        <div class="d-sm-none bg-danger">1</div>
+        <div class="d-none d-sm-block bg-warning">2</div>
+        <div class="d-none d-md-block d-lg-none bg-info">2</div>
+        <div class="d-md-none d-sm-block d-lg-block bg-danger">1</div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="text-center mt-3">LARGE</h1>
+      <div
+        class="
+          container
+          d-flex
+          bg-dark
+          text-white
+          mt-3
+          p-2
+          justify-content-between
+          fixed-bottom
+          mb-4
+        "
+      >
+        <div>
+          <i class="fas fa-phone text-warning"></i>
+          <span class="d-none d-md-inline ms-1">+90544 544 4444</span>
+          <i class="fab fa-whatsapp text-warning p-2 ms-1"></i>
+        </div>
+
+        <div>
+          <i class="fab fa-twitter text-info mx-2"></i>
+          <i class="fab fa-youtube text-info mx-2"></i>
+          <i class="fab fa-instagram text-info mx-2"></i>
+          <span class="d-none d-lg-inline d-sm-none d-xl-inline"
+            >#Muhteşem Developer</span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
